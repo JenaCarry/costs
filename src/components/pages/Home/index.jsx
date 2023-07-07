@@ -9,7 +9,7 @@ export function Home() {
         Bem-vindo ao <span>Costs</span>
       </h1>
       <p>Comece a gerenciar seus projetos agora mesmo!</p>
-      <LinkButton to={"/newproject"} text={"Criar Projeto"} />
+      <LinkButton to="/newproject" text="Criar Projeto" />
       <img
         src={saving}
         alt="Costs"
